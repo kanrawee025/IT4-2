@@ -1,0 +1,31 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+.header{
+    width: 100%;
+    height: 400px;
+    background: url(../img/image1.jpg);
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background: rgb(105, 107, 228);
+}
+.content{
+    width: 100%;
+    height: 500px;
+    background: rgb(130, 130, 201);
+}
+li{
+    float: left;
+    margin: 10px 25px;
+    list-style-type: none;
+}
+li a{
+    color: rgb(250, 250, 250);
+    text-decoration: none;
+}
+li a:hover{
+    color: yellow;
+}
